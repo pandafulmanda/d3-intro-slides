@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intro to Data Visualizations on the Web</title>
+  <link rel="stylesheet" type="text/css" href="http://codeparkhouston.com/hs-utils/assets/lib.css">
+  <link rel="stylesheet" type="text/css" href="http://codeparkhouston.com/hs-utils/assets/reveal.css">
+  <link rel="stylesheet" type="text/css" href="./assets/main.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h1>Intro to D3</h1>
+        <i><strong>D</strong>ata-<strong>D</strong>riven <strong>D</strong>ocuments</i>
+      </section>
+      <section>
+        <section>
+          <h2>Where does it fit in?</h2>
+          <ol>
+            <li>Data-collection</li>
+            <li>Data-cleaning</li>
+            <li>Exploration
+              <p>Quick charting libraries or tools like Tableau, ChartJS, NVD3, etc.</p>
+            </li>
+            <li>
+              <strong>Data-visualization</strong>
+              <ul>
+                <li>Custom visualizations where you need to control the details</li>
+                <li>Used widely for making custom interactive data stories like
+                  <ul>
+                    <li>
+                      <a href="http://bl.ocks.org/mbostock/1153292">Mobile Patent Suits</a>
+                    </li>
+                    <li>
+                      <a href="http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html">
+                        Better to Rent or Buy
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h1>Let's try it!</h1>
+          <ol>
+            <li><a href="https://gist.github.com/pandafulmanda/6f2a4f1977830c1565b3" target="_blank">Loading in D3</a></li>
+            <li><a href="https://gist.github.com/pandafulmanda/c72580cf1ff93f7a5c08" target="_blank">First shape with D3!</a></li>
+          </ol>
+        </section>
+        <section>
+          <img width="50%" src="https://developer.mozilla.org/@api/deki/files/78/=Canvas_default_grid.png"/>
+        </section>
+      </section>
+      <section>
+        <h1>Dyamic Properties</h1>
+        <pre><code data-trim class="language-javascript">
+          .text()
+          .property()
+          .style()
+          .attr()
+        </code></pre>
+      </section>
+      <section>
+        <h1>Data joining with DOM elements</h1>
+        <ul>
+          <li><a href="https://gist.github.com/pandafulmanda/c6706391ac03f3deb4e8" target="_blank">Elements with sample data</a></li>
+          <li><a href="https://gist.github.com/pandafulmanda/d604ca62cde0beaac648" target="_blank">How to update</a></li>          
+        </ul>
+      </section>
+      <section>
+        <h1>Plotting helpers</h1>
+        <ul>
+          <li><a href="https://gist.github.com/pandafulmanda/0557e7dda82411ef5a5b" target="_blank">Scales</a></li>
+          <li>Axes</li>
+          <li>Transitions and dynamic styles setting for <a href="http://ritchiesking.com/book/chart/" target="_blank">animated charts</a></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Tools specific to web visualization</h1>
+        <ul>
+          <li>SVG's, CSS
+            <ul>
+              <li>D3.js</li>
+              <li>Leaflet</li>
+            </ul>
+          </li>
+          <li>Canvas
+            <ul>
+              <li>Bokeh</li>
+              <li>Processing.JS</li>
+              <li>ChartJS</li>
+            </ul>
+          </li>
+        </ul>
+        <p><a href="https://msdn.microsoft.com/en-us/library/gg193983(v=vs.85).aspx">SVG vs. Canvas</a></p>
+      </section>
+      <section>
+        <h3><a href="https://github.com/mbostock/d3/wiki/Tutorials" target="_blank">Exploration</a></h3>
+      </section>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js" data-manual></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+  <script type="text/javascript" src="./assets/main.js"></script>
+</body>
+</html>
